@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookPro - Home</title>
+    <style>
+        body {
+            background-image: url(http://ts2.mm.bing.net/th?id=OIP.QOKLFI7-SMhiupT6OwdiWwHaDe&pid=15.1);
+            background-size: cover;
+            background-position: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            font-size: 2.5em;
+            background-color: rgba(0, 0, 0, 0.7);
+            position: relative;
+        }
+
+        .nav-buttons {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .nav-buttons button {
+            background-color: #ff4500;
+            color: white;
+            border: none;
+            padding: 1px 3px;
+            margin: 1px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 1px;
+            transition: background-color 0.3s;
+        }
+
+        .nav-buttons button:hover {
+            background-color: #e53935;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .section {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2em;
+            color: #FFD700;
+            margin-bottom: 10px;
+        }
+
+        .movies-list, .offers-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .movie-card, .offer-card {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 5px;
+            width: 110px;
+            text-align: center;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .movie-card:hover, .offer-card:hover {
+            transform: scale(1.05);
+        }
+
+        .movie-card img, .offer-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .movie-card button, .offer-card button {
+            background-color: #ff4500;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            margin-top: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .movie-card button:hover, .offer-card button:hover {
+            background-color: #e53935;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+                 Welcome to BookPro 
+        <div class="nav-buttons">
+            <button onclick="location.href='#'">Home</button>
+            <button onclick="location.href='#'">Login</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Popular Movies Section -->
+        <div class="section">
+            <h2>Popular Movies</h2>
+            <div class="movies-list">
+                <!-- Movie 1 -->
+                <div class="movie-card">
+                    <img src="C:\Users\elwin\Downloads\Screenshot_20-7-2024_112345_assets-in.bmscdn.com.jpeg" alt="Movie 1">
+                    <h3>Inside Out 2</h3>
+                    <p>Action | Drama | 2024</p>
+                    <button>Book Now</button>
+                </div>
+                <!-- Movie 2 -->
+                <div class="movie-card">
+                    <img src="C:\Users\elwin\Downloads\kalki movie photo.jpeg" alt="Movie 2">
+                    <h3>Kalki</h3>
+                    <p>Action | Family | 2024</p>
+                    <button>Book Now</button>
+                </div>
+                <!-- Movie 3 -->
+                <div class="movie-card">
+                    <img src="C:\Users\elwin\Downloads\wolverine and deadpool movie photo.jpeg"    
+<h3>Deadpool and Wolverine</h3>
+                    <p>Thriller  | Mystery | 2024</p>
+                    <button>Book Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exclusive Offers Section -->
+        <div class="section">
+            <h2>Exclusive Offers</h2>
+            <div class="offers-list">
+                <!-- Offer 1 -->
+                <div class="offer-card">
+                    <img src="C:\Users\elwin\Downloads\booking 3.jpg" alt="Offer 1">
+                    <h3>50% Off on Weekdays</h3>
+                    <p>Valid for selected movies on Mon-Thurs</p>
+                    <button>Claim Offer</button>
+                </div>
+                <!-- Offer 2 -->
+                <div class="offer-card">
+                    <img src="C:\Users\elwin\Downloads\watching-a-movie.jpg" alt="Offer 2">
+                    <h3>Buy 1 Get 1 Free</h3>
+                    <p>Valid for first-time users. Claim Fast       </p>
+                    <button>Claim Offer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

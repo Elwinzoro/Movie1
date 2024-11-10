@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Login Page Styles */
+.login-page {
+  background-image: url('https://th.bing.com/th/id/R.af57cf2e9b2136202a2d377cacf8b6cd?rik=JitZuMPqAF5Feg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f04%2fDownload-minimalist-backgrounds.png&ehk=8z5zHw4NJGyH3EbWWasqmNwz9CKB2ey%2b%2f5sdw1r2jiM%3d&risl=&pid=ImgRaw&r=0');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.login-container h1 {
+  margin-bottom: 20px;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Home Page Styles */
+.top-buttons {
+  text-align: right;
+  margin: 20px;
+}
+
+button {
+  background-color: #eff3f4;
+  border: none;
+  color: rgb(10, 10, 10);
+  padding: 15px 32px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
